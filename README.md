@@ -26,7 +26,7 @@ function resetGame() private {
     numPlayer = 0;
     numReveal = 0;
     reward = 0;
-}
+
 
 2. การซ่อนตัวเลือกและการ commit (Commit-Then-Reveal)
 เพื่อป้องกันไม่ให้ผู้เล่นสามารถเปลี่ยนแปลงตัวเลือกหลังจากเห็นตัวเลือกของฝ่ายตรงข้าม ระบบนี้ใช้ commit-reveal scheme ซึ่งเป็นวิธีที่ช่วยให้การเล่นยุติธรรม:
